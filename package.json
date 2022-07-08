@@ -1,29 +1,31 @@
 {
-  "name": "tpg-mercadopago",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "clear && nodemon app.js -e mjs,js,json,ejs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/digitalhedu/TPG-MercadoPago.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/digitalhedu/TPG-MercadoPago/issues"
-  },
-  "homepage": "https://github.com/digitalhedu/TPG-MercadoPago#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "express-session": "^1.17.3"
-  }
+	"name": "tpg-mercadopago",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "clear && nodemon ./src/app.js -e mjs,js,json,ejs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dpertierra/TPG-MercadoPago.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dpertierra/TPG-MercadoPago/issues"
+	},
+	"homepage": "https://github.com/dpertierra/TPG-MercadoPago#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"ejs": "^3.1.8",
+		"express": "^4.18.1",
+		"express-session": "^1.17.3",
+		"mercadopago": "^1.5.14"
+	}
 }
